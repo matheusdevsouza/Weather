@@ -1,59 +1,131 @@
-# WeatherDashboard
+# Weather Dashboard
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.12.
+Este é um dashboard de clima moderno e responsivo desenvolvido com Angular 17. O projeto consome a API do OpenWeatherMap para fornecer informações meteorológicas em tempo real, com uma interface elegante e intuitiva.
 
-## Development server
+---
 
-To start a local development server, run:
+## 🧠 Objetivo do Projeto
 
+Criar um dashboard de clima moderno e funcional, com foco em:
+
+- Design moderno e minimalista
+- Responsividade total
+- Boa experiência do usuário
+- Acesso rápido a informações meteorológicas
+- Histórico de buscas
+- Interface intuitiva
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Angular 17**
+- **TypeScript**
+- **SCSS**
+- **RxJS**
+- **OpenWeatherMap API**
+- **Font Awesome**
+- **Bootstrap**
+- **LocalStorage API**
+
+---
+
+## 🧪 Funcionalidades
+
+- Busca de clima por cidade
+- Exibição de temperatura atual
+- Sensação térmica
+- Umidade do ar
+- Velocidade do vento
+- Histórico de buscas recentes
+- Persistência de dados no localStorage
+- Interface responsiva
+- Animações suaves
+- Tratamento de erros
+- Suporte a português
+
+---
+
+## 🚀 Instalação
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/matheusdevsouza/Weather.git
+cd weather-dashboard
+```
+
+2. Instale as dependências:
+```bash
+npm install
+```
+
+3. Configure a API Key:
+   - Abra `src/app/services/weather.service.ts`
+   - Substitua `YOUR_API_KEY` pela sua chave da OpenWeatherMap
+
+4. Inicie o servidor de desenvolvimento:
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+5. Acesse `http://localhost:4200`
 
-## Code scaffolding
+---
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+## 🗂️ Estrutura do Projeto
+```
+WEATHER/
+├── src/
+│   ├── app/
+│   │   ├── components/
+│   │   │   ├── home/
+│   │   │   │   ├── home.component.ts
+│   │   │   │   ├── home.component.html
+│   │   │   │   └── home.component.scss
+│   │   ├── services/
+│   │   │   └── weather.service.ts
+│   │   ├── app.component.ts
+│   │   ├── app.config.ts
+│   │   └── app.routes.ts
+│   ├── assets/
+│   └── styles.scss
+├── package.json
+└── README.md
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
+## 🧪 Como Executar
+
+Modo desenvolvimento:
 ```bash
-ng generate --help
+ng serve
 ```
 
-## Building
-
-To build the project run:
-
+Modo produção:
 ```bash
-ng build
+ng build --prod
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+---
 
-## Running unit tests
+## 📬 Suporte
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+Para dúvidas ou sugestões:
 
-```bash
-ng test
-```
+✉️ howdy@souzadev.com | 📞 (13) 99683-7572 | 🐛 Abra uma issue no GitHub
 
-## Running end-to-end tests
+---
 
-For end-to-end (e2e) testing, run:
+## 📄 Licença
 
-```bash
-ng e2e
-```
+Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+---
 
-## Additional Resources
+## 💻 Desenvolvedor
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+**Matheus Souza**
+Desenvolvedor Web e estudante de Análise e Desenvolvimento de Sistemas
+
+🔗 [GitHub](https://github.com/matheusdevsouza/) | 🌐 [Portfolio](https://www.souzadev.com) | 🏢 [LinkedIn](https://www.linkedin.com/in/matheusouzadev/)
