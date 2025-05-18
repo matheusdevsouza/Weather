@@ -46,6 +46,16 @@ Criar um dashboard de clima moderno e funcional, com foco em:
 
 ---
 
+## 📸 Imagens do Projeto
+
+| Página        | Link                                                                 |
+|---------------|----------------------------------------------------------------------|
+| Home Page     | [Ver imagem](http://souzadev.com/wp-content/uploads/2025/05/clima-1.png) |
+| Home Page     | [Ver imagem](http://souzadev.com/wp-content/uploads/2025/05/clima-2.png) |
+| Home Page     | [Ver imagem](http://souzadev.com/wp-content/uploads/2025/05/clima-3.png) |
+
+---
+
 ## 🚀 Instalação
 
 1. Clone o repositório:
